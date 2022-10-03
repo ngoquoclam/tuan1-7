@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout demo</title>
+    <style>
+        body {}
+        
+        * {
+            padding: auto;
+            margin: auto;
+        }
+        
+        .wapper {
+            height: 800px;
+            width: 1089px;
+            border: 10px;
+        }
+        
+        header {
+            height: 30px;
+            width: 1089px;
+            border-width: 10px;
+            background-color: rgb(18, 231, 221);
+        }
+        
+        .content {
+            height: 400px;
+            width: 1089px;
+            border-width: 10px;
+        }
+        
+        nav {
+            height: 20px;
+            width: 1089px;
+            border-width: 10px;
+            background-color: grey;
+        }
+        
+        section {
+            height: 400px;
+            width: 65%;
+            border-width: 10px;
+            background-color: rgb(236, 19, 19);
+            float: left;
+        }
+        
+        article {
+            height: 45%;
+            width: 95%;
+            border-width: 10px;
+            background-color: rgb(236, 195, 12);
+        }
+        
+        aside {
+            height: 400px;
+            width: 35%;
+            border-width: 10px;
+            background-color: rgb(236, 146, 12);
+            float: left;
+        }
+        
+        footer {
+            height: 100px;
+            width: 1089px;
+            background-color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="wapper">
+        <header>header</header>
+        <div class="content">
+            <nav>nav</nav>
+            <section>section
+                <article>article</article>
+                <article>article</article>
+            </section>
+            <aside>aside</aside>
+        </div>
+
+        <footer align="center">footer</footer>
+    </div>
+</body>
+
+</html>
